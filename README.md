@@ -1,69 +1,141 @@
-📊 Market Expansion Feasibility Analysis – XYZ Mobiles (China vs India)
+📊 Market Expansion Feasibility Analysis – XYZ Mobiles
+📌 Business Problem
 
-Conducted a real-world business analytics case study to evaluate whether XYZ Mobiles should enter the Indian market based on revenue and sales thresholds.
+XYZ Mobiles, a leading Chinese mobile manufacturer, is evaluating expansion into the Indian market (Mumbai).
 
-🔍 Business Objective:
+The company will enter the market only if:
 
-Evaluate if the Mumbai market can generate:
+✅ Minimum 12,000 units sold
 
-Minimum 12,000 unit sales
+✅ At least ₹20 Crore revenue
 
-At least ₹20 Crore revenue annually
+💰 Entry Cost: ₹16 Crore
 
-Against estimated entry cost of ₹16 Crore
+This project evaluates whether Mumbai market meets these business thresholds using data-driven analysis.
 
-📈 Key Analytical Approach:
+📂 Dataset Overview
+🇨🇳 China Dataset (Shanghai)
 
-• Performed Exploratory Data Analysis (EDA) on 40,000 Shanghai customers
-• Identified purchasing behavior based on:
+40,000 customers
+
+Features:
 
 Age
 
-Income
+Gender
+
+Annual Income (Yuan)
+
+Mobile Age (Days)
+
+Purchase Status
+
+🇮🇳 India Dataset (Mumbai)
+
+70,000 customers
+
+Features:
+
+Age
 
 Gender
 
-Mobile phone age
-• Built purchase likelihood insights using behavioral segmentation
-• Applied insights to 70,000 Mumbai dataset
-• Estimated:
+Annual Income (₹)
 
-Expected number of purchases
+Previous Purchase Date
 
-Revenue potential
+🎯 Project Objective
 
-Profit feasibility
+Analyze purchase behavior in Shanghai
 
-📊 Tools & Techniques Used:
+Identify key drivers influencing mobile purchase
 
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+Apply learned patterns to Mumbai dataset
+
+Estimate:
+
+Expected Sales Volume
+
+Projected Revenue
+
+Profitability
+
+Provide final market entry recommendation
+
+🔎 Exploratory Data Analysis (EDA)
+
+Age-wise purchase trends
+
+Income segmentation analysis
+
+Gender distribution insights
+
+Phone replacement cycle analysis
+
+Purchase probability modeling
+
+📊 Key Business Insights
+
+✔ Higher income customers showed stronger purchase intent
+✔ Customers with older phones had higher replacement probability
+✔ Age group 25–40 showed highest buying tendency
+✔ Mumbai market showed potential to meet / not meet threshold (update based on your result)
+
+💰 Revenue Estimation Model
+
+Revenue = Estimated Units Sold × Average Selling Price
+
+Compared against:
+
+Minimum ₹20 Crore target
+
+₹16 Crore market entry cost
+
+📌 Final Recommendation
+
+Based on projected revenue and sales:
+
+📈 Recommendation: (Enter / Do Not Enter) the Indian market
+📊 Data supports decision based on quantified sales estimation.
+
+🛠 Tech Stack
+
+Python (Pandas, NumPy)
+
+Matplotlib / Seaborn
 
 Market Basket Analysis
 
-Revenue Estimation Modeling
+Business Revenue Modeling
 
-Business Decision Framework
+Jupyter Notebook
 
-Customer Segmentation
+📁 Project Structure
+Market-Expansion-Analysis/
+│
+├── data/
+│   ├── CN_Mobiles.csv
+│   └── IN_Mobiles.csv
+│
+├── notebooks/
+│   └── Market_Expansion_Analysis.ipynb
+│
+├── reports/
+│   └── Executive_Summary.pdf
+│
+├── images/
+│   ├── revenue_plot.png
+│   └── segmentation_chart.png
+│
+└── README.md
+🚀 Business Impact
 
-Profitability Analysis
+This project demonstrates:
 
-📌 Final Business Insight:
+Translating raw data into business decisions
 
-Delivered a data-backed recommendation on whether the company should enter the Indian market based on revenue and sales viability.
+Revenue forecasting capability
 
-✅ STEP 3: Add Screenshots (Very Important)
+Market feasibility analysis
 
-LinkedIn projects perform 3x better with visuals.
-
-Upload:
-
-📊 Revenue estimation chart
-
-📈 Sales prediction graph
-
-📉 Age vs Purchase probability
-
-📊 Income segmentation graph
-
-🧠 Final decision summary slide
+Strategic decision analytics
